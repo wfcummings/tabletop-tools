@@ -28,7 +28,7 @@ function isHidden(hiding, aware) {
  * @returns {boolean} whether the strike hits
  */
 function doesStrikeHit(attack, ac) {
-  // TODO
+  return attack >= ac;
 }
 
 /**
